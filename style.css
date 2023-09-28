@@ -222,7 +222,7 @@ body{
     margin-top: -6px;
 }
 .controls i{
-    font-size: larger;
+    font-size: smaller ;
     color: white;
     opacity: .6;
     margin-left: 5px;
@@ -234,4 +234,16 @@ body{
 .controls{
     display: flex;
     justify-content:right;
+    align-items: center;
+    padding-right: 20px;
+}
+.album img{
+    width:fit-content;
+    height:60px;
+   
+}
+.album{
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
